@@ -1,0 +1,6 @@
+# Pour exécuter les notebooks (en plus des dépendances de l'application)
+-r requirements.txt
+jupyter==1.1.1
+nbconvert==7.16.4
+ipykernel==6.29.5
+xgboost==2.1.4      # notebooks/06_classification.ipynb

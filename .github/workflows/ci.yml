@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  tests:
+    name: Tests de l'application
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt pytest==8.3.3
+      - name: Tester les 9 pages
+        run: pytest -v tests/
+
+  docker:
+    name: Image Docker
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Construire l'image
+        run: docker build -t genz-spending-analysis .
+      - name: Démarrer le conteneur et vérifier qu'il répond
+        run: |
+          docker run -d --name app -p 8501:8501 genz-spending-analysis
+          for i in $(seq 1 30); do
+            if curl -fs http://localhost:8501/_stcore/health; then exit 0; fi
+            sleep 2
+          done
+          docker logs app
+          exit 1

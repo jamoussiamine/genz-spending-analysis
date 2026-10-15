@@ -1,0 +1,11 @@
+# Analyse GenZ Spending - dépendances de l'application Streamlit
+# Python 3.10, 3.11 ou 3.12. Versions fixées pour un résultat identique sur tous les PC.
+
+streamlit==1.37.1
+pyarrow==17.0.0      # pyarrow 18+ peut exiger NumPy 2 : incompatible avec numpy 1.26
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2

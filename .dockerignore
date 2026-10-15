@@ -1,0 +1,21 @@
+# Inutile dans l'image : environnement local, notebooks, documentation, Git
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+notebooks/
+requirements-notebooks.txt
+*.md
+.git/
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+run.bat
+run.sh
+LICENSE
+.python-version
+desktop.ini
+tests/
+.github/

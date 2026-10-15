@@ -1,0 +1,18 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Streamlit (secrets éventuels)
+.streamlit/secrets.toml
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*

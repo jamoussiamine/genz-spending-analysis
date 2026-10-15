@@ -1,0 +1,6 @@
+# Fins de ligne : normalisées en LF dans le dépôt
+* text=auto
+*.sh text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.ipynb text eol=lf
