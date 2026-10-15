@@ -1,0 +1,53 @@
+{
+  "kmeans": {
+    "k_optimal": 4,
+    "n_clusters": 4,
+    "silhouette_score": 0.3475953237925293,
+    "calinski_harabasz_score": 2881.4311990864285,
+    "inertia": 34402.60279794708,
+    "davies_bouldin_score": 1.1614618252645004,
+    "ari_score": 0.09096912482882015,
+    "nmi_score": 0.1753897998238732,
+    "homogeneity": 0.17296527497524106,
+    "completeness": 0.1778832621051984,
+    "score_global": 1.0
+  },
+  "dbscan": {
+    "eps": 1.0,
+    "min_samples": 10,
+    "n_clusters": 2,
+    "n_noise": 4539,
+    "silhouette_score": 0.18060961965762923,
+    "calinski_harabasz_score": 1326.9030752070753,
+    "inertia": "N/A",
+    "davies_bouldin_score": 1.0002055424246679,
+    "ari_score": 0.023335250995028818,
+    "nmi_score": 0.07891277703664744,
+    "score_global": 0.3479600707796183
+  },
+  "comparison": {
+    "best_algorithm": "K-Means",
+    "best_score_global": 1.0,
+    "kmeans_score_global": 1.0,
+    "dbscan_score_global": 0.3479600707796183
+  },
+  "best_method": "K-Means",
+  "variables_used": [
+    "Age",
+    "Income (USD)",
+    "Rent (USD)",
+    "Groceries (USD)",
+    "Eating Out (USD)",
+    "Entertainment (USD)",
+    "Subscription Services (USD)",
+    "Education (USD)",
+    "Online Shopping (USD)",
+    "Savings (USD)",
+    "Investments (USD)",
+    "Travel (USD)",
+    "Fitness (USD)",
+    "Miscellaneous (USD)"
+  ],
+  "target_variable": "Financial_Profile",
+  "note": "Clustering effectué uniquement sur les variables originales, sans ratios ni indices"
+}

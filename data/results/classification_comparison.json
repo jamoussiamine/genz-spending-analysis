@@ -1,0 +1,152 @@
+{
+  "svm": {
+    "params": {
+      "C": 10
+    },
+    "metrics": {
+      "accuracy": 0.9591666666666666,
+      "precision": 0.9590763507326007,
+      "recall": 0.9591666666666666,
+      "f1": 0.9590906464002065
+    },
+    "cv_score": {
+      "mean": 0.9641666666666666,
+      "std": 0.003061862178479004
+    },
+    "train_time": 0.5324690341949463
+  },
+  "decision_tree": {
+    "params": {
+      "max_depth": 20,
+      "min_samples_leaf": 4,
+      "min_samples_split": 2
+    },
+    "metrics": {
+      "accuracy": 0.9233333333333333,
+      "precision": 0.9236756910512389,
+      "recall": 0.9233333333333333,
+      "f1": 0.9233509103636848
+    },
+    "cv_score": {
+      "mean": 0.9160416666666666,
+      "std": 0.004249182927993971
+    },
+    "train_time": 2.0999677181243896
+  },
+  "xgboost": {
+    "params": {
+      "learning_rate": 0.2,
+      "max_depth": 7,
+      "n_estimators": 100
+    },
+    "metrics": {
+      "accuracy": 0.9541666666666667,
+      "precision": 0.954095333772289,
+      "recall": 0.9541666666666667,
+      "f1": 0.9540670300832449
+    },
+    "cv_score": {
+      "mean": 0.9445833333333333,
+      "std": 0.0024116326880812902
+    },
+    "train_time": 11.753782987594604
+  },
+  "random_forest": {
+    "params": {
+      "max_depth": null,
+      "min_samples_split": 2,
+      "n_estimators": 200
+    },
+    "metrics": {
+      "accuracy": 0.94,
+      "precision": 0.9401535456871429,
+      "recall": 0.94,
+      "f1": 0.9395758715487151
+    },
+    "cv_score": {
+      "mean": 0.9320833333333333,
+      "std": 0.0036916760722227855
+    },
+    "train_time": 16.680717945098877
+  },
+  "comparison": [
+    {
+      "Algorithme": "SVM",
+      "Accuracy": 0.9591666666666666,
+      "Precision": 0.9590763507326007,
+      "Recall": 0.9591666666666666,
+      "F1-Score": 0.9590906464002065,
+      "CV_Score_Mean": 0.9641666666666666,
+      "CV_Score_Std": 0.003061862178479004,
+      "Train_Time": 0.5324690341949463,
+      "Score_Global": 0.959128883629858
+    },
+    {
+      "Algorithme": "Decision Tree",
+      "Accuracy": 0.9233333333333333,
+      "Precision": 0.9236756910512389,
+      "Recall": 0.9233333333333333,
+      "F1-Score": 0.9233509103636848,
+      "CV_Score_Mean": 0.9160416666666666,
+      "CV_Score_Std": 0.004249182927993971,
+      "Train_Time": 2.0999677181243896,
+      "Score_Global": 0.92342243816888
+    },
+    {
+      "Algorithme": "XGBoost",
+      "Accuracy": 0.9541666666666667,
+      "Precision": 0.954095333772289,
+      "Recall": 0.9541666666666667,
+      "F1-Score": 0.9540670300832449,
+      "CV_Score_Mean": 0.9445833333333333,
+      "CV_Score_Std": 0.0024116326880812902,
+      "Train_Time": 11.753782987594604,
+      "Score_Global": 0.9541289061263879
+    },
+    {
+      "Algorithme": "Random Forest",
+      "Accuracy": 0.94,
+      "Precision": 0.9401535456871429,
+      "Recall": 0.94,
+      "F1-Score": 0.9395758715487151,
+      "CV_Score_Mean": 0.9320833333333333,
+      "CV_Score_Std": 0.0036916760722227855,
+      "Train_Time": 16.680717945098877,
+      "Score_Global": 0.9399535607315287
+    }
+  ],
+  "best_algorithm_accuracy": "SVM",
+  "best_algorithm_f1": "SVM",
+  "best_algorithm_global": "SVM",
+  "final_decision": "SVM",
+  "final_metrics": {
+    "Algorithme": "SVM",
+    "Accuracy": 0.9591666666666666,
+    "Precision": 0.9590763507326007,
+    "Recall": 0.9591666666666666,
+    "F1-Score": 0.9590906464002065,
+    "CV_Score_Mean": 0.9641666666666666,
+    "CV_Score_Std": 0.003061862178479004,
+    "Train_Time": 0.5324690341949463,
+    "Score_Global": 0.959128883629858
+  },
+  "variables_used": [
+    "Age",
+    "Income (USD)",
+    "Rent (USD)",
+    "Groceries (USD)",
+    "Eating Out (USD)",
+    "Entertainment (USD)",
+    "Subscription Services (USD)",
+    "Education (USD)",
+    "Online Shopping (USD)",
+    "Savings (USD)",
+    "Investments (USD)",
+    "Travel (USD)",
+    "Fitness (USD)",
+    "Miscellaneous (USD)"
+  ],
+  "target_variable": "Financial_Profile",
+  "objective_achieved": true,
+  "performance_level": "excellent"
+}

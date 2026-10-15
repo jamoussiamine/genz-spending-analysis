@@ -1,0 +1,44 @@
+{
+  "original_variables": [
+    "Age",
+    "Income (USD)",
+    "Rent (USD)",
+    "Groceries (USD)",
+    "Eating Out (USD)",
+    "Entertainment (USD)",
+    "Subscription Services (USD)",
+    "Education (USD)",
+    "Online Shopping (USD)",
+    "Savings (USD)",
+    "Investments (USD)",
+    "Travel (USD)",
+    "Fitness (USD)",
+    "Miscellaneous (USD)"
+  ],
+  "derived_variables": [
+    "Savings_Rate",
+    "Investment_Rate",
+    "Expense_Rate",
+    "Total_Expenses",
+    "Disposable_Income",
+    "Lifestyle_Index",
+    "Education_Index",
+    "Health_Index",
+    "Digital_Index"
+  ],
+  "categorical_variables": [
+    "Income_Category",
+    "Financial_Profile"
+  ],
+  "target_variable": "Financial_Profile",
+  "note": "Les ratios et indices NE DOIVENT PAS être utilisés dans ACP et Clustering car ils biaisent les résultats",
+  "profile_distribution": {
+    "Depensier": 2258,
+    "Econome": 1937,
+    "Equilibre": 1471,
+    "Investisseur": 334
+  },
+  "savings_rate_mean": 17.057446261307735,
+  "investment_rate_mean": 6.669956234811097,
+  "lifestyle_index_mean": 21.013369274082166
+}

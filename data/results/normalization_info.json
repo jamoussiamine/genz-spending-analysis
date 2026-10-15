@@ -1,0 +1,269 @@
+{
+  "outlier_treatment": "IQR capping (factor=1.5)",
+  "outlier_summary_before": [
+    {
+      "Column": "Age",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Income (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Rent (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Groceries (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Eating Out (USD)",
+      "Outliers_Count": 49,
+      "Outliers_Percentage": 0.8166666666666665,
+      "Outlier_Indices": [
+        192,
+        213,
+        444,
+        634,
+        730,
+        906,
+        1038,
+        1181,
+        1261,
+        1382
+      ]
+    },
+    {
+      "Column": "Entertainment (USD)",
+      "Outliers_Count": 109,
+      "Outliers_Percentage": 1.8166666666666669,
+      "Outlier_Indices": [
+        21,
+        101,
+        161,
+        397,
+        400,
+        414,
+        464,
+        468,
+        502,
+        511
+      ]
+    },
+    {
+      "Column": "Subscription Services (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Education (USD)",
+      "Outliers_Count": 88,
+      "Outliers_Percentage": 1.4666666666666666,
+      "Outlier_Indices": [
+        18,
+        31,
+        83,
+        117,
+        146,
+        199,
+        248,
+        251,
+        303,
+        496
+      ]
+    },
+    {
+      "Column": "Online Shopping (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Savings (USD)",
+      "Outliers_Count": 7,
+      "Outliers_Percentage": 0.11666666666666668,
+      "Outlier_Indices": [
+        2074,
+        2673,
+        3944,
+        4315,
+        4614,
+        5054,
+        5174
+      ]
+    },
+    {
+      "Column": "Investments (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Travel (USD)",
+      "Outliers_Count": 108,
+      "Outliers_Percentage": 1.7999999999999998,
+      "Outlier_Indices": [
+        59,
+        69,
+        95,
+        134,
+        213,
+        247,
+        307,
+        410,
+        464,
+        516
+      ]
+    },
+    {
+      "Column": "Fitness (USD)",
+      "Outliers_Count": 80,
+      "Outliers_Percentage": 1.3333333333333335,
+      "Outlier_Indices": [
+        21,
+        95,
+        371,
+        397,
+        400,
+        414,
+        546,
+        634,
+        679,
+        843
+      ]
+    },
+    {
+      "Column": "Miscellaneous (USD)",
+      "Outliers_Count": 641,
+      "Outliers_Percentage": 10.683333333333334,
+      "Outlier_Indices": [
+        4,
+        11,
+        15,
+        16,
+        20,
+        37,
+        38,
+        44,
+        73,
+        79
+      ]
+    }
+  ],
+  "outlier_summary_after": [
+    {
+      "Column": "Age",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Income (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Rent (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Groceries (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Eating Out (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Entertainment (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Subscription Services (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Education (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Online Shopping (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Savings (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Investments (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Travel (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Fitness (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    },
+    {
+      "Column": "Miscellaneous (USD)",
+      "Outliers_Count": 0,
+      "Outliers_Percentage": 0.0,
+      "Outlier_Indices": []
+    }
+  ],
+  "numeric_columns": [
+    "Age",
+    "Income (USD)",
+    "Rent (USD)",
+    "Groceries (USD)",
+    "Eating Out (USD)",
+    "Entertainment (USD)",
+    "Subscription Services (USD)",
+    "Education (USD)",
+    "Online Shopping (USD)",
+    "Savings (USD)",
+    "Investments (USD)",
+    "Travel (USD)",
+    "Fitness (USD)",
+    "Miscellaneous (USD)"
+  ],
+  "dataset_shape_after_cleaning": [
+    6000,
+    15
+  ]
+}

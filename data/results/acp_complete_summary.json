@@ -1,0 +1,38 @@
+{
+  "n_variables_originales": 14,
+  "n_observations": 1700,
+  "n_composantes_retenues": 11,
+  "variance_expliquee": 81.02406046868819,
+  "variance_par_composante": {
+    "PC1": 8.149055680666,
+    "PC2": 7.976842749204358,
+    "PC3": 7.8620050543206075,
+    "PC4": 7.637947645579025,
+    "PC5": 7.501755701774619,
+    "PC6": 7.352127235801626,
+    "PC7": 7.210865752715851,
+    "PC8": 7.074530309384912,
+    "PC9": 6.913988675154307,
+    "PC10": 6.772929682733367,
+    "PC11": 6.572011981353522
+  },
+  "critere_80_pourcent": 11,
+  "critere_90_pourcent": 13,
+  "critere_kaiser": 7,
+  "variables_originales": [
+    "Age",
+    "Income (USD)",
+    "Rent (USD)",
+    "Groceries (USD)",
+    "Eating Out (USD)",
+    "Entertainment (USD)",
+    "Subscription Services (USD)",
+    "Education (USD)",
+    "Online Shopping (USD)",
+    "Savings (USD)",
+    "Investments (USD)",
+    "Travel (USD)",
+    "Fitness (USD)",
+    "Miscellaneous (USD)"
+  ]
+}
